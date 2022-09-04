@@ -1,3 +1,6 @@
+#!/usr/bin/env python3
+import requests
+from pprint import pprint
 '''
 Using the requests package, make a GET request to the api behind this endpoint:
 
@@ -12,3 +15,9 @@ Print out:
 
 
 '''
+base_url = "http://demo.codingnomads.co:8080/tasks_api/users"
+
+response = requests.get(base_url)
+pprint(response.status_code)
+pprint(response.encoding)
+pprint(response.text)
