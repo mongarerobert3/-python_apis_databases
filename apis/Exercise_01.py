@@ -18,6 +18,6 @@ Print out:
 base_url = "http://demo.codingnomads.co:8080/tasks_api/users"
 
 response = requests.get(base_url)
-pprint(response.status_code)
-pprint(response.encoding)
-pprint(response.text)
+pprint(f"Response Status Code: {response.status_code}")
+pprint(f"Response Encoding: {response.encoding}")
+pprint(f"response content: {response.content}")
