@@ -1,3 +1,4 @@
+#!/usr/bin/env python
 '''
 
 Please create a new Python application that interfaces with a brand new database.

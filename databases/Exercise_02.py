@@ -1,3 +1,4 @@
+#!/usr/bin/env python
 '''
 Consider each of the tasks below as a separate database query. Using SQLAlchemy, which is the necessary code to:
 
